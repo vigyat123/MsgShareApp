@@ -1,11 +1,10 @@
-package com.smartherd.msgshareapp.activities
+package com.smartherd.anewbiemessageshareapp.activities
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.widget.Toast
-import com.smartherd.msgshareapp.Constants
-import com.smartherd.msgshareapp.R
-import com.smartherd.msgshareapp.showToast
+import com.smartherd.anewbiemessageshareapp.Constants
+import com.smartherd.anewbiemessageshareapp.R
+import com.smartherd.anewbiemessageshareapp.showToast
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity : AppCompatActivity(){

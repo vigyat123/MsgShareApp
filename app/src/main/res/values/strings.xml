@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MsgShareApp</string>
+    <string name="app_name" translatable="false">NewBieMsgShareApp</string>
 
     <string name="btn_show_toast">Show Toast</string>
 

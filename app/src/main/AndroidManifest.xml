@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smartherd.msgshareapp">
+    package="com.smartherd.anewbiemessageshareapp">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_shareapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.MainActivity">
+        <activity android:name="com.smartherd.anewbiemessageshareapp.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.SecondActivity"></activity>
-        <activity android:name=".activities.HobbiesActivity"></activity>
+        <activity android:name="com.smartherd.anewbiemessageshareapp.activities.SecondActivity"></activity>
+        <activity android:name="com.smartherd.anewbiemessageshareapp.activities.HobbiesActivity"></activity>
     </application>
 
 </manifest>

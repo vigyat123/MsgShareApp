@@ -1,4 +1,4 @@
-package com.smartherd.msgshareapp
+package com.smartherd.anewbiemessageshareapp
 
 import org.junit.Test
 

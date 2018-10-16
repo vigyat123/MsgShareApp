@@ -1,4 +1,4 @@
-package com.smartherd.msgshareapp.adapters
+package com.smartherd.anewbiemessageshareapp.adapters
 
 import android.content.Context
 import android.content.Intent
@@ -6,10 +6,9 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import com.smartherd.msgshareapp.models.Hobby
-import com.smartherd.msgshareapp.R
-import com.smartherd.msgshareapp.showToast
+import com.smartherd.anewbiemessageshareapp.models.Hobby
+import com.smartherd.anewbiemessageshareapp.R
+import com.smartherd.anewbiemessageshareapp.showToast
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class HobbiesAdapter(val context: Context, private val hobbies: List<Hobby>): RecyclerView.Adapter<HobbiesAdapter.MyViewHolder>(){

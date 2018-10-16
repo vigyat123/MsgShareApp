@@ -1,11 +1,11 @@
-package com.smartherd.msgshareapp.activities
+package com.smartherd.anewbiemessageshareapp.activities
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
-import com.smartherd.msgshareapp.adapters.HobbiesAdapter
-import com.smartherd.msgshareapp.R
-import com.smartherd.msgshareapp.models.Supplier
+import com.smartherd.anewbiemessageshareapp.adapters.HobbiesAdapter
+import com.smartherd.anewbiemessageshareapp.R
+import com.smartherd.anewbiemessageshareapp.models.Supplier
 import kotlinx.android.synthetic.main.activity_hobbies.*
 
 class HobbiesActivity: AppCompatActivity(){
